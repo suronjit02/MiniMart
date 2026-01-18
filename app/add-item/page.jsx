@@ -4,8 +4,8 @@ import { useState, useEffect } from 'react'
 import { useRouter } from 'next/navigation'
 import Cookies from 'js-cookie'
 import toast from 'react-hot-toast'
-import Navbar from '../../components/Navbar'
-import Footer from '../../components/Footer'
+import Navbar from '../../components/Navbar.jsx'
+import Footer from '../../components/Footer.jsx'
 
 export default function AddItem() {
   const [formData, setFormData] = useState({
